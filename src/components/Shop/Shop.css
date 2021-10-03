@@ -1,0 +1,26 @@
+.shop-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.text-center{
+    text-align: center;
+}
+.product-container{
+    border-right: 2px solid #926464;
+    margin-right: 8px;
+    margin-left: 80px;
+    height: 100vh;
+    overflow-y: scroll;
+}
+.search-section{
+    background-color: black;
+    padding: 10px 0;
+}
+.search-section .search-bar{
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+}
