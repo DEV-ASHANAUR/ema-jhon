@@ -20,5 +20,12 @@
     background: blueviolet;
     border-radius: 3px;
 }
+.active{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    background: blueviolet;
+    border-radius: 3px;
+}
 
 
