@@ -1,0 +1,31 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-area input[type='email']{
+    padding: 10px 5px;
+}
+.form-area input[type='password']{
+    padding: 10px 5px;
+}
+.form-area input[type='submit'] {
+    padding: 6px 16px;
+    background: goldenrod;
+    border: 1px solid;
+    color: #fff;
+}
+
+.form-area input[type='button'] {
+    padding: 6px 16px;
+    background: goldenrod;
+    border: 1px solid;
+    color: #fff;
+}
+.social-btn{
+    padding: 6px 16px;
+    background: goldenrod;
+    border: 1px solid;
+    color: #fff;
+}

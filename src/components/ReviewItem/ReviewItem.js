@@ -17,7 +17,7 @@ const ReviewItem = (props) => {
                 <p>Price : ${price}</p>
                 <p>only {stock} left in stock - order soon</p>
                 <p>Quantity : {quantity}</p>
-                <button onClick={()=>props.handleRemove(key)} className='cart-btn'> {cartItem} Remove Item</button>
+                <button onClick={()=>props.handleRemove(key)} className='cart-btn' style={{background:'red'}}> {cartItem} Remove Item</button>
             </div>
         </div>
     );

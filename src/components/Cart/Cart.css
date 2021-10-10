@@ -1,14 +1,15 @@
 .text-center{
     text-align: center;
 }
-.purches-btn{
+.purches-btn {
     border: none;
     padding: 10px 49px;
     background: #f0c14b;
     border-radius: 5px;
-    color: #020202;
+    color: #fff;
+    width: 100%;
     font-size: 15px;
     cursor: pointer;
-    display: block;
-    margin: 0 auto;
+    display: inline-block;
+    /* margin: 0 56px; */
 }
